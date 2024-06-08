@@ -53,7 +53,7 @@ FROM Trainer T, Scheda S
 WHERE T.CF = S.Trainer_CF
 GROUP BY T.CF, T.Nome
 HAVING COUNT(*) >= ALL (SELECT COUNT(*)
-						FROM Trainer T, Scheda S
+			FROM Trainer T, Scheda S
                         WHERE T.CF = S.Trainer_CF
                         GROUP BY T.CF, T.Nome);
                         
@@ -64,8 +64,8 @@ Visualizzare il nome e il cognome dei segreatri che hanno organizzato sia l'even
 SELECT S.Nome, S.Cognome
 FROM Segretario S, Organizzazione O
 WHERE S.CF = O.Segretario_CF AND O.Evento_Nome = "Natale in palestra" AND S.CF IN(SELECT O.Segretario_CF
-																				 FROM Organizzazione O
-																				 WHERE O.Evento_Nome = "Giornata della corsa");
+											FROM Organizzazione O
+											WHERE O.Evento_Nome = "Giornata della corsa");
                         
 
 /*
@@ -74,10 +74,7 @@ Visualizzare i clienti che hanno partecipato a tutti gli eventi
 SELECT C.CF, C.Nome, C.Cognome
 FROM Cliente C
 WHERE NOT EXISTS (SELECT*
-					FROM Evento E
-                    WHERE NOT EXISTS (SELECT*
-										FROM Partecipazione P
-                                        WHERE P.C_CF = C.CF AND P.E_Nome = E.Nome AND P.E_Data = E.DataEvento))
-					
-
-
+			FROM Evento E
+                    	WHERE NOT EXISTS (SELECT*
+						FROM Partecipazione P
+                                        	WHERE P.C_CF = C.CF AND P.E_Nome = E.Nome AND P.E_Data = E.DataEvento))
