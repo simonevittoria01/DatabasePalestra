@@ -1,3 +1,5 @@
+## Database Palestra
+
 Questa cartella contiene un piccolo progetto individuale che mi è servito per il conseguimento dell'esame di Basi di Dati, superato con votazione 30/30
 
 Il progetto consiste nella creazione di un Database finalizzato alla gestione di una piccola palestra
@@ -8,8 +10,5 @@ Il contenuto della cartella è il seguente:
 - [InsertDB](InsertDB.sql), uno script SQL per l'inserimento di dati fittizzi nel Database
 - [SelectDB](SelectDB.sql), uno script SQL per alcune interrogazioni al Database
 
-## Istruzioni per l'utilizzo
-
 ### Requisiti preliminari
-- Assicurati di avere un gestore di database SQL installato sul tuo sistema.
-- Accertati di avere accesso in lettura/scrittura ai file del progetto.
+- Assicurati di avere MySQL installato sul tuo sistema
