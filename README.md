@@ -1,9 +1,5 @@
 ## Database Palestra
-
-
-### Breve introduzione
 Questa cartella contiene un piccolo progetto individuale che mi è servito per il conseguimento dell'esame di Basi di Dati, superato con votazione 30/30
-
 Il progetto consiste nella creazione di un Database finalizzato alla gestione di una piccola palestra
 
 
