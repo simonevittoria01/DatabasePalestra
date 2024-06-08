@@ -7,3 +7,9 @@ Il contenuto della cartella è il seguente:
 - [CreateDB](CreateDB.sql), uno script SQL per la creazione del Database e delle tabelle
 - [InsertDB](InsertDB.sql), uno script SQL per l'inserimento di dati fittizzi nel Database
 - [SelectDB](SelectDB.sql), uno script SQL per alcune interrogazioni al Database
+
+## Istruzioni per l'utilizzo
+
+### Requisiti preliminari
+- Assicurati di avere un gestore di database SQL installato sul tuo sistema.
+- Accertati di avere accesso in lettura/scrittura ai file del progetto.
