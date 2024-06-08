@@ -3,7 +3,7 @@ Questa cartella contiene un piccolo progetto individuale che mi è servito per i
 
 
 ## Contenuto della cartella
-- [Presentazione](PresentazioneProgetto.pdf): un PDF che riporta la realtà da rappresentare, lo schema E/R, alcuni dati e ottimizzazioni sul progetto e infine lo schema logico;
+- [Presentazione](PresentazioneProgetto.pdf): un PDF che riporta la realtà da rappresentare, lo schema E/R, alcuni dati e ottimizzazioni sul progetto e infine lo schema logico
 - [CreateDB](CreateDB.sql): uno script SQL per la creazione del Database e delle tabelle
 - [InsertDB](InsertDB.sql): uno script SQL per l'inserimento di dati fittizzi nel Database
 - [SelectDB](SelectDB.sql): uno script SQL per alcune interrogazioni al Database
