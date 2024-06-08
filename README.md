@@ -1,6 +1,5 @@
 # Database Palestra
-Questa cartella contiene un piccolo progetto individuale che mi è servito per il conseguimento dell'esame di Basi di Dati, superato con votazione 30/30
-Il progetto consiste nella creazione di un Database finalizzato alla gestione di una piccola palestra
+Questa cartella contiene un piccolo progetto individuale che mi è servito per il conseguimento dell'esame di Basi di Dati, superato con votazione 30/30. Il progetto consiste nella creazione di un Database finalizzato alla gestione di una piccola palestra
 
 
 ## Contenuto della cartella
